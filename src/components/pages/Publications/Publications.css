@@ -1,0 +1,14 @@
+.main-box{
+  display: flex;
+  flex-direction: row;
+}
+.side-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.side-link{
+
+}

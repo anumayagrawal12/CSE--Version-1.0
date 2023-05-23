@@ -12,7 +12,8 @@ import ContactInformation from './components/pages/ContactInformation/ContactInf
 import NewsAndAnnouncement from './components/pages/NewsAndAnnouncement/NewsAndAnnouncement';
 import StudentResources from './components/pages/StudentResources/StudentResources';
 import Footer from './components/pages/Footer';
-
+import Publication from './components/pages/Publications/Publications';
+import Project from './components/pages/Projects/Projects';
 function App() {
   return (
     <Router>
@@ -21,9 +22,12 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/FacultyOverview" component={FacultyOverview} />
         <Route path="/Curriculum" component={Curriculum} />
-        <Route path="/Research" component={Research} />
+        <Route path="/Research" component={Publication} />
         <Route path="/StudentResources" component={StudentResources} />
         <Route path="/ContactInformation" component={ContactInformation} />
+        <Route path="/Project" component={Project} />
+        <Route path="/Publication" component={Publication} />
+        <Route path="/Area" component={Research} />
       </Switch>
       <Footer />
     </Router>
