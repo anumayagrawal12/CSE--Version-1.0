@@ -89,6 +89,7 @@ export default function Publications() {
           </div>
         </div>
         <div className="drops">
+          <h3>Publications</h3>
           {publishs.map((publish, index) => (
             <Drop
               publish={publish}
